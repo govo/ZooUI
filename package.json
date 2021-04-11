@@ -15,5 +15,9 @@
     "rollup-plugin-scss": "^2.6.1",
     "rollup-plugin-vue": "^6.0.0",
     "vue": "^2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:govo/ZooUI.git"
   }
 }
