@@ -21,12 +21,12 @@ const rollupFn = function ({ input, name, dist, format = 'esm', vueOptions = { c
     ]
   }
 }
-const assignBaseConfig = function ({ format = 'esm', vueOptions = {} }) {
+const assignBaseConfig = function ({ format, vueOptions = {} }) {
   return {
     input: 'src/index.js',
     output: {
       name: 'ZooUI',
-      file: path.resolve(`lib/zoo-ui.${format}.js`),
+      file: path.resolve(`lib/index${format ? '.' + format : ''}.js`),
       format: format || 'esm'
     },
     plugins: [
@@ -44,7 +44,7 @@ const assignBaseConfig = function ({ format = 'esm', vueOptions = {} }) {
 }
 
 export default [
-  assignBaseConfig({ format: 'esm' }),
+  assignBaseConfig({}),
   assignBaseConfig({ format: 'cjs', vueOptions: { template: { optimizeSSR: true } } }),
   assignBaseConfig({ format: 'iife' }),
   assignBaseConfig({ format: 'umd' }),
