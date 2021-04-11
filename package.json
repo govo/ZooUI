@@ -19,5 +19,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:govo/ZooUI.git"
-  }
+  },
+  "keywords": [
+    "vue",
+    "components"
+  ]
 }
