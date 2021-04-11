@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "author": "govo",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "rollup --config build/rollup.config.js"
   },
