@@ -23,10 +23,10 @@
 </template>
 
 <style lang="scss" scoped>
-.zoo__game___selector {
+.zoo__channel___selector {
   overflow-y: scroll;
 }
-.zoo__game__game-id {
+.zoo__channel__game-id {
   font-size: 0.85;
   font-weight: 400;
   color: #bbb;
@@ -36,7 +36,7 @@
 <script>
 // @ is an alias to /src
 export default {
-  name: 'GameSelector',
+  name: 'ChannelSelector',
   props: {
     gameList: {
       type: Array,

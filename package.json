@@ -1,12 +1,12 @@
 {
   "name": "ZooUI",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "govo",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "rollup --config rollup.config.js"
+    "build": "rollup --config build/rollup.config.js"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.11",
