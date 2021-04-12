@@ -1,5 +1,5 @@
 import GameSelector from './GameSelector/index'
-import ChannelSelector from './ChannelSelector/index'
+import ChannelSelector from '../packages/ChannelSelector/index'
 
 const components = [GameSelector, ChannelSelector]
 

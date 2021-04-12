@@ -23,10 +23,10 @@
 </template>
 
 <style lang="scss" scoped>
-.zoo__channel___selector {
+.zoo__game___selector {
   overflow-y: scroll;
 }
-.zoo__channel__game-id {
+.zoo__game__game-id {
   font-size: 0.85;
   font-weight: 400;
   color: #bbb;
